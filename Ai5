@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Paper Website</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Question Paper Website</h1>
+  </header>
+
+  <main>
+    <!-- Math Question Paper Section -->
+    <section>
+      <h2>Math Question Paper</h2>
+      <p>Download the full question paper below:</p>
+      <a class="button" href="https://drive.google.com/file/d/18LDnDJGp1afMfckGycj8miFfP5474fxL/view?usp=drivesdk" target="_blank">View/Download Math Paper</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
